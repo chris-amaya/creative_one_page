@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+header {
+    background: url('../img/header-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between
+    
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header ul.part-left {
+    width: 20%;
+    
+}
+
+header ul.part-left li  {
+    width: 100%;
+    padding: 45px 15px 15px 15px;
+    
+}
+
+
+header ul.part-right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+header ul.part-right li {
+    padding: 45px 15px 15px 15px;
+}
+header ul.part-right li:hover {
+    background: #dd374d
+}
+
+header div.titulo {
+    text-align: center;
+    margin: 200px 0px 100px 0px
+}
+
+header div.titulo h1 {
+    padding: 10px
+}
+
+header div.titulo p {
+    padding: 35px;
+    color: #c48a19;
+}
+
+header div.navegacion-down {
+    text-align: center;
+    padding: 20px
+}
+
+header div.navegacion-down i {
+    font-size: 55px;
+
+    
+}
+
+
+/* ######## HEADER ##############*/
+
+/* ######## SECTION FUTURE ###########*/
+
+section.future {
+    padding-bottom: 50px
+}
+
+section.future h2 {
+    color: #000;
+    text-align: center;
+    padding: 50px;
+}
+
+section.future span {
+    color: #c48a19;
+}
+
+section.future p {
+    color: #000;
+    text-align: center;
+}
+
+/* ######### SECTION CARACTERISITICAS ####### */
+
+section.caracteristicas {
+    background: url('../img/background-caracteristicas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+
+section.caracteristicas .productos {
+    text-align: center;
+    
+}
+
+section.caracteristicas .productos .producto {
+    margin-bottom: 20px
+}
+
+section.caracteristicas .productos .producto img {
+    width: 50px;
+}
+
+section.caracteristicas div.agradecimientos {
+    text-align: center;
+    padding: 50px 0px;
+    position: relative;
+}
+
+#adorno {
+    position: relative;
+    margin: auto;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+#adorno img {
+    border-radius: 50%;
+    border: 1px solid;
+    width: 15px
+    
+}
+
+section.caracteristicas div.agradecimientos > img {
+    margin-bottom: 50px;
+}
+
+section.caracteristicas div.agradecimientos > p {
+    margin-bottom: 50px    
+}
+
+
+/* ######### SECTION ESPESIALIZACION #########*/
+
+section.especializacion * {
+    color: #000
+}
+
+section.especializacion h2 {
+    padding: 30px 0px;
+}
+
+section.especializacion .wedo {
+    b
+}
+
+section.especializacion #development,
+section.especializacion #internet-marketing {
+    display: none;
+}
+
+section.especializacion a.active {
+    border-bottom: none;
+    border-right: 2px solid #d3d3d3;
+    border-left: 2px solid #d3d3d3;
+    border-top: 2px solid #dd374d;
+    position: relative;
+    top: -1px;
+}
+
+section.especializacion .active>p{
+    padding: 30px 0px;
+    text-align: justify;
+    
+}
+
+
+section.especializacion nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+section.especializacion nav a {
+    padding: 30px 0px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #d3d3d3;
+    
+}
+
+section.especializacion div#visual-design div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.especializacion div#visual-design div div {
+    display: block;
+    text-align: center;
+    
+}
+
+section.especializacion div#visual-design div div p {
+    padding: 20px 0px
+}
+
+/* ############ ########## ########### ############*/
+
+section.especializacion .separador {
+    display: flex;
+}
+
+section.especializacion div.skills {
+    padding: 0px 20px;
+}
+
+section.especializacion div.skills .porcentaje {
+    margin-top: 30px;
+}
+
+section.especializacion div.skills .porcentaje .skill {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+section.especializacion div.skills .porcentaje .total-porcentaje {
+    height: 7px;
+    background: #eeeeee;
+    
+}
+
+section.especializacion div.skills .porcentaje .total-porcentaje .agregado {
+    width: 70%;
+    height: 100%;
+    background: #dd374d
+}
+
+
+section.works div > * {
+    color: #000;
+}
+
+section.works {
+    background: #f4f4f4;
+}
+
+section.works h2 {
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+
+section.works .contenedor p {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*######## MEDIA QUERYS #############*/
+
+    @media only screen and (min-width: 768px) {
+        
+        section.caracteristicas {
+            padding: 50px 0px;
+        }
+        
+        section.caracteristicas .productos {
+            display: flex;
+            
+        }
+        
+        section.caracteristicas .productos .producto {
+            padding: 30px
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
